@@ -1,0 +1,5 @@
+902  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+922  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+13836 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.ElementsTests.performKeyEventTest()] is PASSED
+13836 [main] INFO  com.demoqa.utils.MyTestWatcher -- performKeyEventTest()
+13836 [main] INFO  com.demoqa.utils.MyTestWatcher -- **************************************************

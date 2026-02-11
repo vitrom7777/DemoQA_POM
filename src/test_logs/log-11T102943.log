@@ -1,0 +1,6 @@
+951  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+975  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+16907 [main] ERROR com.demoqa.utils.MyTestWatcher -- The method !!!Optional[public void com.demoqa.tests.ElementsTests.performMouseEventTest()]!!! is FAILED
+16907 [main] ERROR com.demoqa.utils.MyTestWatcher -- performMouseEventTest()
+16907 [main] ERROR com.demoqa.utils.MyTestWatcher -- Invalid key code
+16908 [main] INFO  com.demoqa.utils.MyTestWatcher -- **************************************************

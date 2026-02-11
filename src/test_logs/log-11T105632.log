@@ -1,0 +1,14 @@
+998  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+1016 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+38148 [main] ERROR com.demoqa.utils.MyTestWatcher -- The method !!!Optional[public void com.demoqa.tests.ElementsTests.performMouseEventTest()]!!! is FAILED
+38149 [main] ERROR com.demoqa.utils.MyTestWatcher -- performMouseEventTest()
+38150 [main] ERROR com.demoqa.utils.MyTestWatcher -- no such element: Unable to locate element: {"method":"css selector","selector":"#uploadedFilePath"}
+  (Session info: chrome=144.0.7559.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d6f91dfecd7ed13c316697797e0a2c1, findElement {value=uploadedFilePath, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\vitro\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59690}, goog:processID: 27416, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59690/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d6f91dfecd7ed13c316697797e0a2c1
+38159 [main] INFO  com.demoqa.utils.MyTestWatcher -- **************************************************

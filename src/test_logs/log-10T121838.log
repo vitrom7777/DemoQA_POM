@@ -1,0 +1,9 @@
+990  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+1009 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vitro\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+20205 [main] ERROR com.demoqa.utils.MyTestWatcher -- The method !!!Optional[public void com.demoqa.tests.ElementsTests.checkBrokenImagesTest()]!!! is FAILED
+20206 [main] ERROR com.demoqa.utils.MyTestWatcher -- checkBrokenImagesTest()
+20206 [main] ERROR com.demoqa.utils.MyTestWatcher -- 
+Multiple Failures (1 failure)
+-- failure 1 --BROKEN images --> https://demoqa.com/images/Toolsqa_1.jpg
+at BrokenLinksImagesPage.checkBrokenImaged(BrokenLinksImagesPage.java:61)
+20206 [main] INFO  com.demoqa.utils.MyTestWatcher -- **************************************************
