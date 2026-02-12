@@ -7,6 +7,7 @@ import com.demoqa.pages.alertsFrameWindows.AlertsPage;
 import com.demoqa.pages.alertsFrameWindows.WindowsPage;
 import com.demoqa.pages.alertsFrameWindows.iframesPage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -61,6 +62,7 @@ public class AlertsFrameWindowsTests extends TestBase {
     WebElement browserWindows;
 
     @Test
+    @Tag("smoky")
     public void iframeByIdTest() {
         sidePanel.getFrames();
         iframes.switchToIframeById()

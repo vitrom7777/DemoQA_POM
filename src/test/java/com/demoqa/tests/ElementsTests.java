@@ -9,6 +9,7 @@ import com.demoqa.pages.elements.TextBoxPage;
 import com.demoqa.pages.elements.UploadPage;
 import com.demoqa.utils.MyArgumentsProvider;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ArgumentsSource;
@@ -43,6 +44,7 @@ public class ElementsTests extends TestBase {
 
     // pravi click
     @Test
+    @Tag("smoky")
     public void rightClickTest() {
         sidePanel.getButtons();
         button.rightClick()
@@ -94,6 +96,7 @@ public class ElementsTests extends TestBase {
     }
 
     @Test
+
     public void getAllLinksTest() {
         sidePanel.getBrokenLinksImages();
         broken.getAllLinks();

@@ -16,8 +16,8 @@ public class ButtonPage extends BasePage {
 
     public ButtonPage doubleClick() {
         //  waitOfElementVisibility(doubleClickBtn,5);
-        scrollWithJS(0, 200);
-        pause(500);
+        scrollWithJS(0, 300);
+        pause(1000);
 
         actions.doubleClick(doubleClickBtn).perform();
 

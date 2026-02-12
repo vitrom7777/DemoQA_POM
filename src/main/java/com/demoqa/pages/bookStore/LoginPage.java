@@ -28,9 +28,13 @@ public class LoginPage extends BasePage {
     @FindBy(id ="login")
     WebElement  loginButton;
     public LoginPage clickOnLoginButton () {
+//       scrollWithJS(0,300);
+//       pause(600);
+ //       clickWithJS(loginButton,0,300);
         click(loginButton);
         return this;
     }
+
 @FindBy(id = "userName-value")
 WebElement userNameValue;
 

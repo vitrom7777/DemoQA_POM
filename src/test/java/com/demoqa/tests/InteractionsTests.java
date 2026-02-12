@@ -4,10 +4,7 @@ import com.demoqa.core.TestBase;
 import com.demoqa.pages.HomePage;
 import com.demoqa.pages.SidePanel;
 import com.demoqa.pages.interactions.DragAndDropPage;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class InteractionsTests extends TestBase {
 
@@ -24,6 +21,7 @@ public class InteractionsTests extends TestBase {
     }
 
     @Test
+    @Tag("smoky")
     public void dragMyTest(){
         sidePanel.getDroppable();
         dragAndDrop.gradMe()
